@@ -5,7 +5,7 @@ class Course
   def initialized
     @@all << self
   end
-  
+
   def title
     @title = title
   end
