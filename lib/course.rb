@@ -7,7 +7,7 @@ class Course
     @@all << self
   end
 
-  def title
+  def title(title)
     @title = title
   end
 
