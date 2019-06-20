@@ -5,16 +5,17 @@ class Course
   def initialized
     @@all << self
   end
+  
   def title
-
+    @title = title
   end
 
   def schedule
-
+    @schedule = schedule
   end
 
   def description
-
+    @description = description
   end
 
   def self.all
